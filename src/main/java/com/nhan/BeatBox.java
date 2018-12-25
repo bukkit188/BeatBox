@@ -11,7 +11,6 @@ import java.util.*;
 import java.awt.event.*;
 
 public class BeatBox {
-
 	JPanel mainPanel;
 	ArrayList<JCheckBox> checkboxList;
 	Sequencer sequencer;
