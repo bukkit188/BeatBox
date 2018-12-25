@@ -29,15 +29,6 @@ public class BeatBox {
 	}
 
 	public void buildGUI() {
-		try {
-			Socket chatSocket = new Socket("192.168.1.103", 5000);
-		} catch (UnknownHostException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IOException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		theFrame = new JFrame("Cyber BeatBox");
 		theFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		BorderLayout layout = new BorderLayout();
